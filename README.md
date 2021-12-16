@@ -3,8 +3,8 @@ Supplementary R code for SC-SIMEX
 
 This R code (R version 4.0.5) with simulated subject and business data
 demonstrates an example of bias correction using SC-SIMEX. Plots and
-output provided with this code and data sets are reproducible by running
-the following code. 400 subjects and 600 businesses are generated
+output below are reproducible with provided codes and data. For this toy example,
+400 subjects and 600 businesses are generated
 uniformly on the 10 x 10 grid and the buffer radius is set to be 0.3
 (Euclidean distance) considering the size of zip polygon (unit square).
 ZIP centroid is a centre of 1 x 1 square.
