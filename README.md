@@ -2,7 +2,7 @@ Supplementary R code for SC-SIMEX
 ================
 
 This R code (R version 4.0.5) with simulated subject and business data
-demonstrates an example of bias correction using SC-SIMEX. Plots and
+demonstrates an example of bias correction using [SC-SIMEX](http://doi.org/10.1002/sim.9338). Plots and
 output below are reproducible with provided codes and data. For this toy example,
 400 subjects and 600 businesses are generated
 uniformly on the 10 x 10 grid and the buffer radius is set to be 0.3
@@ -309,3 +309,5 @@ plot
 Compared to the naive model (red), corrections from SC-SIMEX with
 quadratic (green) and cubic (blue) extrapolants cover the true
 coefficient values of all predictors within 95% confidence intervals.
+
+For questions and bug reports, please contact jungywon@umich.edu.
